@@ -15,5 +15,5 @@ Due to the way I simplified the string parsing only an input of 55 characters or
     wc -c sha1.c 
         2280 sha1.c
     wc -c minsha1.c 
-         726 minsha1.c
+         730 minsha1.c
 
