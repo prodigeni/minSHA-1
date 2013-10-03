@@ -1,5 +1,5 @@
 # Minimal SHA-1
-I set out to try and create a small implementation of SHA-1. `sha1.` contains the original implementation I wrote and `minsha1.c` contains the shrunk down version.
+I set out to try and create a small implementation of SHA-1. `sha1.c` contains the original implementation I wrote and `minsha1.c` contains the shrunk down version.
 
 ## Running
 Both can be compiled with either clang or gcc, no options required and should produce no warnings. The input is read from stdin.
@@ -12,8 +12,8 @@ Both can be compiled with either clang or gcc, no options required and should pr
 Due to the way I simplified the string parsing only an input of 55 characters or less will hash correctly
 
 ## Size
-   wc -c sha1.c 
-       2280 sha1.c
-   wc -c minsha1.c 
-        726 minsha1.c
+    wc -c sha1.c 
+        2280 sha1.c
+    wc -c minsha1.c 
+         726 minsha1.c
 
