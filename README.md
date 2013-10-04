@@ -2,7 +2,7 @@
 I set out to try and create a small implementation of SHA-1. `sha1.c` contains the original implementation I wrote and `minsha1.c` contains the shrunk down version.
 
 ## Running
-Both can be compiled with either clang or gcc (might requite `-std=c99` flag). The input is read from stdin.
+Both can be compiled with either clang or gcc (might require `-std=c99` flag). The input is read from stdin.
 
     clang minsha1.c
     ./a.out "The quick brown fox jumps over the lazy dog"
@@ -15,5 +15,5 @@ Due to the way I simplified the string parsing only an input of 55 characters or
     wc -c sha1.c 
         2280 sha1.c
     wc -c minsha1.c 
-         730 minsha1.c
+         561 minsha1.c
 
